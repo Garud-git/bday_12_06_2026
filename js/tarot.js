@@ -203,7 +203,7 @@ cards.forEach(card => {
             if(trial >= letters.length){
 
                 window.location.href =
-                    "index.html";
+                    "rules.html";
 
                 return;
             }

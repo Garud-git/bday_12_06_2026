@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Fate Awaits...</title>
+  <link rel="stylesheet" href="css/scare.css" />
+</head>
+<body>
+
+  <!-- Video fullscreen -->
+  <div class="video-container" id="videoContainer">
+    <video id="scareVideo" playsinline>
+      <source src="assets/videos/jumpscare.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <!-- Birthday message (hidden until video ends) -->
+  <div class="bday-screen" id="bdayScreen">
+    <div class="bday-content">
+      <div class="sparkles" id="sparkles"></div>
+      <div class="bday-card">
+        <div class="crown">👑</div>
+        <h1 class="bday-title">Happy Birthday</h1>
+        <h2 class="bday-name">Sharmili!</h2>
+        <p class="bday-msg">You solved the mystery, faced your fears,<br/>and now the universe celebrates YOU. 🎉</p>
+        <div class="tarot-footer">✦ &nbsp; The cards foretold this day &nbsp; ✦</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/scare.js"></script>
+</body>
+</html>
